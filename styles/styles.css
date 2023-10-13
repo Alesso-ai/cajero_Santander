@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: blue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    width: 150vh;
+}
+
+.caja{
+    background-color: rgb(49, 189, 202);
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    padding: 35px;
+    border-radius: 20px;
+    
+    
+    
+}
+.title{
+    color: rgb(28, 28, 162);
+    text-align: center;
+}
+.caja2{
+    display: grid;
+    gap: 20px;
+}
+input{
+    width:500px;
+    height: 30px;
+    border-radius: 5px;
+}
+.btn{
+    display: grid;
+    gap: 20px;
+    justify-self: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn2{
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+
+}
