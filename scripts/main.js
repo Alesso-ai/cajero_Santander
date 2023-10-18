@@ -39,14 +39,17 @@ document.addEventListener("DOMContentLoaded", function () {
     
     }
 
-      /*8º Metodo para actualizar saldo que lo uso para 
-      no estar repitiendo la misma movida 200 veces*/
-     function actualziarSaldoConvecional(){
-      saldo.textContent = `Saldo: ${saldoActual}€`
-    }
+      
 
     
   });
+
+   /*8º Metodo para actualizar saldo que lo uso para 
+      no estar repitiendo la misma movida 200 veces*/
+      function actualziarSaldoConvecional(){
+        saldo.textContent = `Saldo: ${saldoActual}€`
+      }
+
 
   /*9º REPETIMOS EL MISMO PROCESO PARA INGRESAR DINERO, SOLO QUE CAMBIANDO 
   LA CONDICION Y LA SUMA DEL SALDO */
@@ -65,16 +68,13 @@ document.addEventListener("DOMContentLoaded", function () {
       mensaje.textContent=`Depositado: ${cantidad}`;
     }
 
-    function actualziarSaldoConvecional(){
-      saldo.textContent = `Saldo: ${saldoActual}€`
-    }
+  
 
 
 
   });
 
-
-
+ 
 
 
 
