@@ -48,6 +48,9 @@ document.addEventListener("DOMContentLoaded", function () {
     
   });
 
+  /*9º REPETIMOS EL MISMO PROCESO PARA INGRESAR DINERO, SOLO QUE CAMBIANDO 
+  LA CONDICION Y LA SUMA DEL SALDO */
+
   depositar.addEventListener("click", function() {
     const cantidad = parseFloat(importe.value);
 
